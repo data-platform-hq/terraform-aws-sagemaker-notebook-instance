@@ -5,7 +5,7 @@ Terraform module for AWS SageMaker Notebook instance creation
 
 ```hcl
 module "sagemaker_notebook" {
-  source  = "data-platform-hq/athena/aws"
+  source  = "data-platform-hq/sagemaker-notebook-instance/aws"
   version = "~> 1.0"
   
   tags = {
