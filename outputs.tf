@@ -1,7 +1,3 @@
-################################################################################
-# Athena workgroups
-################################################################################
-
 output "id" {
   description = "The name of the notebook instance"
   value       = try(aws_sagemaker_notebook_instance.this[0].id, null)
